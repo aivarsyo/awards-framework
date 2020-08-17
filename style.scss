@@ -1,0 +1,48 @@
+// Required Core Stylesheet
+@import "node_modules/@glidejs/glide/src/assets/sass/glide.core";
+
+// Optional Theme Stylesheet
+@import "node_modules/@glidejs/glide/src/assets/sass/glide.theme";
+
+@font-face {
+    font-family: 'Ginto';
+    src: url('GintoNordTrial-Regular.woff') format('woff');
+  }
+
+  body{
+    font-family: 'Ginto';
+    margin: 0;
+  }
+
+  .awardsblock__h{
+      display: flex;
+      flex-direction: column;
+      font-size: 2vw;
+  }
+
+  .link--underline{
+      color: black;
+  }
+
+  .awardsblock{
+      display: grid;
+      grid-template-columns: 2fr 1fr;
+      grid-template-rows: auto auto;
+  }
+
+  .awardsblock__container{
+      grid-column: 1/2;
+      grid-row: 1/2;
+      padding-left: 1vw;
+  }
+
+  .glide{
+      grid-column: 1/3;
+      grid-row: 2/3;
+  }
+
+  .glide__slide img {
+      width: 15vw;
+      height: auto;
+  }
+

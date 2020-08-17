@@ -1,0 +1,31 @@
+{
+  "name": "awards",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "scripts": {
+    "start": "parcel *.html --open",
+    "build": "parcel build *.html --no-content-hash --public-url ./"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aivarsyo/awards-framework.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aivarsyo/awards-framework.git/issues"
+  },
+  "homepage": "https://github.com/aivarsyo/awards-framework#readme",
+  "devDependencies": {
+    "marked": "^1.1.1",
+    "parcel-bundler": "^1.12.4",
+    "parcel-plugin-nuke-dist": "^1.0.1",
+    "sass": "^1.26.10"
+  },
+  "dependencies": {
+    "@glidejs/glide": "^3.4.1",
+    "parcel-plugin-static-files-copy": "^2.5.0"
+  }
+}
